@@ -1,0 +1,72 @@
+:root{
+    --font1:'Qwitcher Grypen', cursive;
+    --font2:'Ms Madi', cursive;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+.trungthu{
+    background-image: linear-gradient(0,rgb(189, 18, 18),rgb(211, 147, 29));
+    width: 100%;
+    
+}
+#logo{
+    border-radius: 20px;
+    width: 170px;
+    margin:1px 30px;
+    padding-top: 3px;
+}
+body{
+    min-height:1000px;
+    transition: all 3s ease-in-out;
+}
+body::-webkit-scrollbar{
+    width: 5px;
+}
+body::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: orange;
+}
+.trungthu1{
+    display: flex;
+    position: relative;
+}
+.trungthu2{
+    font-size: 50px;
+    margin-top: 17px;
+    font-family: 'Qwitcher Grypen', cursive;
+    color: white;
+}
+#n2{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: flex-start
+}
+header div {
+    background-color: white;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+header div p {
+    padding: 0 20px;
+}
+#p0{
+    right: 0;
+}
+#tho{
+    width: 200px;
+    height: 100px;
+    font-size: 12px;
+    font-family: 'Ms Madi', cursive;
+}
+
+
+
+    
