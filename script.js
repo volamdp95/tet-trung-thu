@@ -29,7 +29,7 @@ var stopAudio=function(){
 
 var img=[
     "3-hoat-dong-don-Trung-Thu-thu-vi-cung-gia-dinh.jpg",
-    "img/hinh-anh-trung-thu.jpg",
+    "hinh-anh-trung-thu.jpg",
 ]
 var index=1;
 var pic=document.getElementById('img');
