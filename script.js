@@ -29,8 +29,8 @@ var stopAudio=function(){
 
 var img=[
     "3-hoat-dong-don-Trung-Thu-thu-vi-cung-gia-dinh.jpg",
-    // "background-trung-thu-7.jpg",
     "img/hinh-anh-trung-thu.jpg",
+    // "background-trung-thu-7.jpg",
     // "tet-trung-thu.jpg",
     // "trung-thu1-0922.webp",
     // "trung-thu-2022-la-ngay-nao-01.jpg"
