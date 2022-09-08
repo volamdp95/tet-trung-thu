@@ -29,11 +29,11 @@ var stopAudio=function(){
 
 var img=[
     "3-hoat-dong-don-Trung-Thu-thu-vi-cung-gia-dinh.jpg",
-    // "img/background-trung-thu-7.jpg",
-    "hinh-anh-trung-thu.jpg",
-    // "img/tet-trung-thu.jpg",
-    // "img/trung-thu1-0922.webp",
-    // "img/trung-thu-2022-la-ngay-nao-01.jpg"
+    // "background-trung-thu-7.jpg",
+    "img/hinh-anh-trung-thu.jpg",
+    // "tet-trung-thu.jpg",
+    // "trung-thu1-0922.webp",
+    // "trung-thu-2022-la-ngay-nao-01.jpg"
     
 ]
 var index=1;
