@@ -25,3 +25,48 @@ var playAudio = function(){
 var stopAudio=function(){
     music.pause()
 }
+
+
+var img=[
+    "3-hoat-dong-don-Trung-Thu-thu-vi-cung-gia-dinh.jpg",
+    // "img/background-trung-thu-7.jpg",
+    "hinh-anh-trung-thu.jpg",
+    // "img/tet-trung-thu.jpg",
+    // "img/trung-thu1-0922.webp",
+    // "img/trung-thu-2022-la-ngay-nao-01.jpg"
+    
+]
+var index=1;
+var pic=document.getElementById('img');
+document.getElementById('next').onclick=()=>{
+    pic.src=img[index];
+    if(index==img.length-1){
+        index=0
+    }
+    else{
+        index=index+1;
+
+    }
+}
+
+var pic=document.getElementById('img');
+document.getElementById('back').onclick=()=>{
+    pic.src=img[index];
+    if(index==0){
+        index=img.length-1;
+    }
+    else{
+        index=index-1;
+        
+    }
+}
+setInterval(function(){
+    pic.src=img[index];
+    if(index==img.length-1){
+        index=0
+    }
+    else{
+        index=index+1;
+
+    }
+},10000)
