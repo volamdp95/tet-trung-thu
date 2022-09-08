@@ -20,7 +20,7 @@
     padding-top: 3px;
 }
 body{
-    min-height:1000px;
+    min-height:780px;
     transition: all 3s ease-in-out;
 }
 body::-webkit-scrollbar{
@@ -66,6 +66,45 @@ header div p {
     font-size: 12px;
     font-family: 'Ms Madi', cursive;
 }
+@media (max-width:790px) {
+    header{
+        flex-direction: column;
+        display: block;
+    }
+    header nav {
+        display: block;
+    }
+}
+#img{
+    width: 100%;
+   
+}
+#pic{
+    position: relative;
+}
+#back{
+    position: absolute;
+    top:30%;
+    left: 0;
+    background: linear-gradient(45deg,rgba(0, 128, 0, 0.573),rgba(0, 0, 255, 0.523));
+    border-radius: 20px;
+    
+}
+#next{
+    position: absolute;
+    top: 30%;
+    right: 0;
+    background: linear-gradient(45deg,rgba(0, 128, 0, 0.573),rgba(0, 0, 255, 0.523));
+    border-radius: 20px;
+}
+
+#next{
+    padding:30px;
+}
+#back i {
+    padding:30px;
+}
+    
 
 
 
